@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Linguist: count SQL/docs as documentation, not generated vendored code
+*.sql linguist-detectable=true
+docs/** linguist-documentation=true
+
+# If you ever track large artifacts in git (prefer HF Datasets instead), uncomment:
+# *.parquet filter=lfs diff=lfs merge=lfs -text
+# *.npy filter=lfs diff=lfs merge=lfs -text

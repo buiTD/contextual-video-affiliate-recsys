@@ -1,0 +1,43 @@
+# Python / uv
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Large data & models — host on Hugging Face Datasets, not git
+data/processed/*.parquet
+data/models/*.txt
+data/models/*.npy
+data/public_benchmark/raw/
+*.mp4
+*.wav
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Personal / process artifacts — kept local, not published
+.agent/
+docs/interview_defense_playbook.md
+docs/daily_learning_log.md
