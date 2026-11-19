@@ -27,8 +27,10 @@ class RawProduct(BaseModel):
 
     @field_validator("id", "name", "description", mode="before")
     @classmethod
-    def _normalize_nfc(cls, value: str) -> str:
+    def _normalize_nfc(cls, value: object) -> object:
         """Normalize Vietnamese text to NFC so hashing/dedupe are stable."""
+        if not isinstance(value, str):
+            return value  # non-str must fail pydantic validation, not crash NFC
         return unicodedata.normalize("NFC", value).strip()
 
 
@@ -42,6 +44,8 @@ def load_and_validate_products(raw_path: Path) -> list[RawProduct]:
         Valid products, NFC-normalized, unique by case-folded name.
     """
     rows = json.loads(raw_path.read_text(encoding="utf-8"))
+    if not isinstance(rows, list):
+        raise ValueError("expected a JSON array of products")
     seen: set[str] = set()
     products: list[RawProduct] = []
     for row in rows:

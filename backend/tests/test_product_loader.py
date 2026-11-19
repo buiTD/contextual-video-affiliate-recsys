@@ -4,6 +4,7 @@ import json
 import unicodedata
 from pathlib import Path
 
+import pytest
 from pipelines.crawlers.product_loader import load_and_validate_products
 
 
@@ -44,3 +45,19 @@ def test_drop_invalid_price_and_category(tmp_path: Path) -> None:
 
 def test_empty_catalog(tmp_path: Path) -> None:
     assert load_and_validate_products(_write(tmp_path, [])) == []
+
+
+def test_non_string_name_is_skipped_not_crash(tmp_path: Path) -> None:
+    rows = [
+        {"id": "1", "name": None, "category": "book", "price": 10},
+        {"id": "2", "name": "OK", "category": "book", "price": 20},
+    ]
+    products = load_and_validate_products(_write(tmp_path, rows))
+    assert [p.id for p in products] == ["2"]
+
+
+def test_non_array_top_level_raises(tmp_path: Path) -> None:
+    path = tmp_path / "products_raw.json"
+    path.write_text('{"not": "an array"}', encoding="utf-8")
+    with pytest.raises(ValueError):
+        load_and_validate_products(path)

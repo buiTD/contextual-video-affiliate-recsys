@@ -30,7 +30,9 @@ TOTAL = 500
 
 def _stream(url: str):
     """Yield lines from a remote file, terminating the download early."""
-    proc = subprocess.Popen(["curl", "-sL", "--fail", url], stdout=subprocess.PIPE)
+    proc = subprocess.Popen(
+        ["curl", "-sL", "--fail", "--max-time", "120", url], stdout=subprocess.PIPE
+    )
     try:
         for line in proc.stdout:
             yield line
@@ -77,6 +79,8 @@ def main() -> None:
     products: list[dict] = []
     for category, filename, keywords in SOURCES:
         rows = collect(category, filename, keywords)
+        if not rows:
+            raise RuntimeError(f"no rows fetched for {category}")
         print(f"{category}: {len(rows)}")
         products.extend(rows)
     products = products[:TOTAL]
