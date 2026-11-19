@@ -56,12 +56,12 @@ def test_duplicate_content_across_splits_raises(tmp_path: Path) -> None:
         load_curated_scripts(_write(tmp_path, rows))
 
 
-def test_invalid_scenes_skipped(tmp_path: Path) -> None:
+def test_invalid_scenes_raises(tmp_path: Path) -> None:
     bad = _script("a", "feed")
     bad["scenes"] = []
     rows = [bad, _script("b", "dev", "Hook B")]
-    scripts = load_curated_scripts(_write(tmp_path, rows))
-    assert [s.id for s in scripts] == ["b"]
+    with pytest.raises(ValueError):
+        load_curated_scripts(_write(tmp_path, rows))
 
 
 def test_non_array_top_level_raises(tmp_path: Path) -> None:

@@ -54,8 +54,8 @@ def load_curated_scripts(raw_path: Path) -> list[RawScript]:
         Valid scripts with NFC-normalized text.
 
     Raises:
-        ValueError: On non-array input, duplicate ids, or duplicate content
-            across splits (data leakage).
+        ValueError: On non-array input, an invalid row, duplicate ids, or
+            duplicate content across splits (data leakage).
     """
     rows = json.loads(raw_path.read_text(encoding="utf-8"))
     if not isinstance(rows, list):
@@ -66,8 +66,9 @@ def load_curated_scripts(raw_path: Path) -> list[RawScript]:
     for row in rows:
         try:
             script = RawScript.model_validate(row)
-        except ValidationError:
-            continue
+        except ValidationError as exc:
+            # curated corpus must be clean; a bad row is a generator bug, fail loud
+            raise ValueError(f"invalid script row: {row}") from exc
         if script.id in seen_ids:
             raise ValueError(f"duplicate script id across splits: {script.id}")
         text = " ".join([script.hook, *script.scenes, script.voiceover, script.visual_cue])
