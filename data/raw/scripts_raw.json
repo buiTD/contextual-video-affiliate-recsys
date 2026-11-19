@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "book-00",
+    "split": "feed",
+    "category": "book",
+    "hook": "Người mới: Một cuốn sách thay đổi cách bạn nghĩ về tiền.",
+    "scenes": [
+      "Nhân vật lật trang đầu, ánh mắt sáng lên.",
+      "Gấp sách, nhìn ra cửa sổ suy ngẫm."
+    ],
+    "voiceover": "Đọc không phải để biết nhiều, mà để nghĩ khác. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Bìa sách cận cảnh, ánh sáng ấm."
+  },
+  {
+    "id": "book-01",
+    "split": "feed",
+    "category": "book",
+    "hook": "Quà tặng: Một cuốn sách thay đổi cách bạn nghĩ về tiền.",
+    "scenes": [
+      "Nhân vật lật trang đầu, ánh mắt sáng lên.",
+      "Gấp sách, nhìn ra cửa sổ suy ngẫm."
+    ],
+    "voiceover": "Đọc không phải để biết nhiều, mà để nghĩ khác. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Bìa sách cận cảnh, ánh sáng ấm."
+  },
+  {
+    "id": "book-02",
+    "split": "feed",
+    "category": "book",
+    "hook": "Tiết kiệm: Một cuốn sách thay đổi cách bạn nghĩ về tiền.",
+    "scenes": [
+      "Nhân vật lật trang đầu, ánh mắt sáng lên.",
+      "Gấp sách, nhìn ra cửa sổ suy ngẫm."
+    ],
+    "voiceover": "Đọc không phải để biết nhiều, mà để nghĩ khác. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Bìa sách cận cảnh, ánh sáng ấm."
+  },
+  {
+    "id": "book-03",
+    "split": "feed",
+    "category": "book",
+    "hook": "Người mới: Bạn đọc mãi mà không nhớ? Sai phương pháp.",
+    "scenes": [
+      "Highlight kín trang nhưng đầu trống rỗng.",
+      "Ghi chú ba dòng, nhớ cả chương."
+    ],
+    "voiceover": "Đọc ít lại, nhớ nhiều hơn. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Sách mở và sổ ghi chú cạnh nhau."
+  },
+  {
+    "id": "book-04",
+    "split": "feed",
+    "category": "book",
+    "hook": "Quà tặng: Bạn đọc mãi mà không nhớ? Sai phương pháp.",
+    "scenes": [
+      "Highlight kín trang nhưng đầu trống rỗng.",
+      "Ghi chú ba dòng, nhớ cả chương."
+    ],
+    "voiceover": "Đọc ít lại, nhớ nhiều hơn. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Sách mở và sổ ghi chú cạnh nhau."
+  },
+  {
+    "id": "book-05",
+    "split": "feed",
+    "category": "book",
+    "hook": "Tiết kiệm: Bạn đọc mãi mà không nhớ? Sai phương pháp.",
+    "scenes": [
+      "Highlight kín trang nhưng đầu trống rỗng.",
+      "Ghi chú ba dòng, nhớ cả chương."
+    ],
+    "voiceover": "Đọc ít lại, nhớ nhiều hơn. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Sách mở và sổ ghi chú cạnh nhau."
+  },
+  {
+    "id": "book-06",
+    "split": "feed",
+    "category": "book",
+    "hook": "Người mới: Sách lịch sử mà cuốn như phim.",
+    "scenes": [
+      "Trang sách chuyển thành cảnh chiến trận.",
+      "Nhân vật kể chuyện say sưa."
+    ],
+    "voiceover": "Lịch sử không khô khan, cách kể mới khô. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Sách sử và bản đồ cổ."
+  },
+  {
+    "id": "book-07",
+    "split": "feed",
+    "category": "book",
+    "hook": "Quà tặng: Sách lịch sử mà cuốn như phim.",
+    "scenes": [
+      "Trang sách chuyển thành cảnh chiến trận.",
+      "Nhân vật kể chuyện say sưa."
+    ],
+    "voiceover": "Lịch sử không khô khan, cách kể mới khô. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Sách sử và bản đồ cổ."
+  },
+  {
+    "id": "book-08",
+    "split": "feed",
+    "category": "book",
+    "hook": "Tiết kiệm: Sách lịch sử mà cuốn như phim.",
+    "scenes": [
+      "Trang sách chuyển thành cảnh chiến trận.",
+      "Nhân vật kể chuyện say sưa."
+    ],
+    "voiceover": "Lịch sử không khô khan, cách kể mới khô. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Sách sử và bản đồ cổ."
+  },
+  {
+    "id": "book-09",
+    "split": "dev",
+    "category": "book",
+    "hook": "Người mới: Quà tặng cho người thích đọc.",
+    "scenes": [
+      "Gói quà mở ra cuốn sách bìa cứng.",
+      "Người nhận mỉm cười ôm sách."
+    ],
+    "voiceover": "Tặng sách là tặng một thế giới. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Hộp quà và sách bìa cứng."
+  },
+  {
+    "id": "book-10",
+    "split": "dev",
+    "category": "book",
+    "hook": "Quà tặng: Quà tặng cho người thích đọc.",
+    "scenes": [
+      "Gói quà mở ra cuốn sách bìa cứng.",
+      "Người nhận mỉm cười ôm sách."
+    ],
+    "voiceover": "Tặng sách là tặng một thế giới. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Hộp quà và sách bìa cứng."
+  },
+  {
+    "id": "book-11",
+    "split": "dev",
+    "category": "book",
+    "hook": "Tiết kiệm: Quà tặng cho người thích đọc.",
+    "scenes": [
+      "Gói quà mở ra cuốn sách bìa cứng.",
+      "Người nhận mỉm cười ôm sách."
+    ],
+    "voiceover": "Tặng sách là tặng một thế giới. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Hộp quà và sách bìa cứng."
+  },
+  {
+    "id": "book-12",
+    "split": "dev",
+    "category": "book",
+    "hook": "Người mới: Sách kỹ năng cho người mới đi làm.",
+    "scenes": [
+      "Nhân vật bối rối trước email đầu tiên.",
+      "Đọc xong, tự tin trả lời."
+    ],
+    "voiceover": "Kỹ năng không tự nhiên mà có. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Sách kỹ năng và laptop."
+  },
+  {
+    "id": "book-13",
+    "split": "test",
+    "category": "book",
+    "hook": "Quà tặng: Sách kỹ năng cho người mới đi làm.",
+    "scenes": [
+      "Nhân vật bối rối trước email đầu tiên.",
+      "Đọc xong, tự tin trả lời."
+    ],
+    "voiceover": "Kỹ năng không tự nhiên mà có. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Sách kỹ năng và laptop."
+  },
+  {
+    "id": "book-14",
+    "split": "test",
+    "category": "book",
+    "hook": "Tiết kiệm: Sách kỹ năng cho người mới đi làm.",
+    "scenes": [
+      "Nhân vật bối rối trước email đầu tiên.",
+      "Đọc xong, tự tin trả lời."
+    ],
+    "voiceover": "Kỹ năng không tự nhiên mà có. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Sách kỹ năng và laptop."
+  },
+  {
+    "id": "book-15",
+    "split": "test",
+    "category": "book",
+    "hook": "Người mới: Mỗi tối hai mươi phút, một cuốn mỗi tháng.",
+    "scenes": [
+      "Đồng hồ chỉ 22h, đèn bàn bật.",
+      "Chồng sách dày dần theo tuần."
+    ],
+    "voiceover": "Thói quen nhỏ, kết quả lớn. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Đèn bàn và chồng sách."
+  },
+  {
+    "id": "tech-00",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Người mới: Tai nghe chống ồn cho người hay tập trung.",
+    "scenes": [
+      "Ồn ào quán cafe biến mất khi đeo tai nghe.",
+      "Nhân vật chìm vào công việc."
+    ],
+    "voiceover": "Im lặng là công cụ làm việc. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Tai nghe cận cảnh, nền cafe mờ."
+  },
+  {
+    "id": "tech-01",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Quà tặng: Tai nghe chống ồn cho người hay tập trung.",
+    "scenes": [
+      "Ồn ào quán cafe biến mất khi đeo tai nghe.",
+      "Nhân vật chìm vào công việc."
+    ],
+    "voiceover": "Im lặng là công cụ làm việc. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Tai nghe cận cảnh, nền cafe mờ."
+  },
+  {
+    "id": "tech-02",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Tiết kiệm: Tai nghe chống ồn cho người hay tập trung.",
+    "scenes": [
+      "Ồn ào quán cafe biến mất khi đeo tai nghe.",
+      "Nhân vật chìm vào công việc."
+    ],
+    "voiceover": "Im lặng là công cụ làm việc. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Tai nghe cận cảnh, nền cafe mờ."
+  },
+  {
+    "id": "tech-03",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Người mới: Bàn phím cơ gõ sướng tay cho coder.",
+    "scenes": [
+      "Ngón tay lướt phím, âm thanh giòn.",
+      "Màn hình code chạy mượt."
+    ],
+    "voiceover": "Công cụ tốt khiến bạn muốn làm việc. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Bàn phím cơ và màn hình code."
+  },
+  {
+    "id": "tech-04",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Quà tặng: Bàn phím cơ gõ sướng tay cho coder.",
+    "scenes": [
+      "Ngón tay lướt phím, âm thanh giòn.",
+      "Màn hình code chạy mượt."
+    ],
+    "voiceover": "Công cụ tốt khiến bạn muốn làm việc. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Bàn phím cơ và màn hình code."
+  },
+  {
+    "id": "tech-05",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Tiết kiệm: Bàn phím cơ gõ sướng tay cho coder.",
+    "scenes": [
+      "Ngón tay lướt phím, âm thanh giòn.",
+      "Màn hình code chạy mượt."
+    ],
+    "voiceover": "Công cụ tốt khiến bạn muốn làm việc. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Bàn phím cơ và màn hình code."
+  },
+  {
+    "id": "tech-06",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Người mới: Sạc dự phòng nhỏ bằng lòng bàn tay.",
+    "scenes": [
+      "Điện thoại 1% giữa đường.",
+      "Cắm sạc, pin nhảy vọt."
+    ],
+    "voiceover": "Đừng để hết pin phá ngày của bạn. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Sạc dự phòng và điện thoại."
+  },
+  {
+    "id": "tech-07",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Quà tặng: Sạc dự phòng nhỏ bằng lòng bàn tay.",
+    "scenes": [
+      "Điện thoại 1% giữa đường.",
+      "Cắm sạc, pin nhảy vọt."
+    ],
+    "voiceover": "Đừng để hết pin phá ngày của bạn. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Sạc dự phòng và điện thoại."
+  },
+  {
+    "id": "tech-08",
+    "split": "feed",
+    "category": "tech",
+    "hook": "Tiết kiệm: Sạc dự phòng nhỏ bằng lòng bàn tay.",
+    "scenes": [
+      "Điện thoại 1% giữa đường.",
+      "Cắm sạc, pin nhảy vọt."
+    ],
+    "voiceover": "Đừng để hết pin phá ngày của bạn. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Sạc dự phòng và điện thoại."
+  },
+  {
+    "id": "tech-09",
+    "split": "dev",
+    "category": "tech",
+    "hook": "Người mới: Chuột không dây cho cổ tay đỡ mỏi.",
+    "scenes": [
+      "Cổ tay đau vì chuột cũ.",
+      "Đổi chuột công thái học, thoải mái."
+    ],
+    "voiceover": "Sức khỏe cổ tay đáng đầu tư. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chuột công thái học và bàn làm việc."
+  },
+  {
+    "id": "tech-10",
+    "split": "dev",
+    "category": "tech",
+    "hook": "Quà tặng: Chuột không dây cho cổ tay đỡ mỏi.",
+    "scenes": [
+      "Cổ tay đau vì chuột cũ.",
+      "Đổi chuột công thái học, thoải mái."
+    ],
+    "voiceover": "Sức khỏe cổ tay đáng đầu tư. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chuột công thái học và bàn làm việc."
+  },
+  {
+    "id": "tech-11",
+    "split": "dev",
+    "category": "tech",
+    "hook": "Tiết kiệm: Chuột không dây cho cổ tay đỡ mỏi.",
+    "scenes": [
+      "Cổ tay đau vì chuột cũ.",
+      "Đổi chuột công thái học, thoải mái."
+    ],
+    "voiceover": "Sức khỏe cổ tay đáng đầu tư. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chuột công thái học và bàn làm việc."
+  },
+  {
+    "id": "tech-12",
+    "split": "dev",
+    "category": "tech",
+    "hook": "Người mới: Webcam rõ nét cho họp online.",
+    "scenes": [
+      "Hình mờ khiến bạn thiếu chuyên nghiệp.",
+      "Webcam mới, hình sắc nét."
+    ],
+    "voiceover": "Ấn tượng đầu tiên qua camera. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Webcam và khung hình họp rõ."
+  },
+  {
+    "id": "tech-13",
+    "split": "test",
+    "category": "tech",
+    "hook": "Quà tặng: Webcam rõ nét cho họp online.",
+    "scenes": [
+      "Hình mờ khiến bạn thiếu chuyên nghiệp.",
+      "Webcam mới, hình sắc nét."
+    ],
+    "voiceover": "Ấn tượng đầu tiên qua camera. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Webcam và khung hình họp rõ."
+  },
+  {
+    "id": "tech-14",
+    "split": "test",
+    "category": "tech",
+    "hook": "Tiết kiệm: Webcam rõ nét cho họp online.",
+    "scenes": [
+      "Hình mờ khiến bạn thiếu chuyên nghiệp.",
+      "Webcam mới, hình sắc nét."
+    ],
+    "voiceover": "Ấn tượng đầu tiên qua camera. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Webcam và khung hình họp rõ."
+  },
+  {
+    "id": "tech-15",
+    "split": "test",
+    "category": "tech",
+    "hook": "Người mới: Đèn màn hình chống mỏi mắt đêm khuya.",
+    "scenes": [
+      "Mắt mỏi dưới ánh đèn trắng.",
+      "Đèn màn hình dịu, mắt dễ chịu."
+    ],
+    "voiceover": "Làm đêm không phải trả giá bằng mắt. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Đèn screenbar và màn hình đêm."
+  },
+  {
+    "id": "cosmetics-00",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Người mới: Serum vitamin C cho da xỉn màu.",
+    "scenes": [
+      "Da xỉn trước gương.",
+      "Sau hai tuần, da sáng hơn."
+    ],
+    "voiceover": "Sáng da không phải phép màu, là đều đặn. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chai serum và giọt serum trên tay."
+  },
+  {
+    "id": "cosmetics-01",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Quà tặng: Serum vitamin C cho da xỉn màu.",
+    "scenes": [
+      "Da xỉn trước gương.",
+      "Sau hai tuần, da sáng hơn."
+    ],
+    "voiceover": "Sáng da không phải phép màu, là đều đặn. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chai serum và giọt serum trên tay."
+  },
+  {
+    "id": "cosmetics-02",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Tiết kiệm: Serum vitamin C cho da xỉn màu.",
+    "scenes": [
+      "Da xỉn trước gương.",
+      "Sau hai tuần, da sáng hơn."
+    ],
+    "voiceover": "Sáng da không phải phép màu, là đều đặn. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chai serum và giọt serum trên tay."
+  },
+  {
+    "id": "cosmetics-03",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Người mới: Kem chống nắng không nhờn cho da dầu.",
+    "scenes": [
+      "Thoa kem, da bóng nhờn khó chịu.",
+      "Kem mới thấm nhanh, lì mịn."
+    ],
+    "voiceover": "Chống nắng mỗi ngày, kể cả trong nhà. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Tuýp kem chống nắng, nền sáng."
+  },
+  {
+    "id": "cosmetics-04",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Quà tặng: Kem chống nắng không nhờn cho da dầu.",
+    "scenes": [
+      "Thoa kem, da bóng nhờn khó chịu.",
+      "Kem mới thấm nhanh, lì mịn."
+    ],
+    "voiceover": "Chống nắng mỗi ngày, kể cả trong nhà. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Tuýp kem chống nắng, nền sáng."
+  },
+  {
+    "id": "cosmetics-05",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Tiết kiệm: Kem chống nắng không nhờn cho da dầu.",
+    "scenes": [
+      "Thoa kem, da bóng nhờn khó chịu.",
+      "Kem mới thấm nhanh, lì mịn."
+    ],
+    "voiceover": "Chống nắng mỗi ngày, kể cả trong nhà. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Tuýp kem chống nắng, nền sáng."
+  },
+  {
+    "id": "cosmetics-06",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Người mới: Son lì màu trầm cho da ngăm.",
+    "scenes": [
+      "Thử son sáng màu, lệch tông.",
+      "Màu trầm tôn da ngăm."
+    ],
+    "voiceover": "Đúng màu quan trọng hơn màu hot. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Thỏi son lì và swatch trên tay."
+  },
+  {
+    "id": "cosmetics-07",
+    "split": "feed",
+    "category": "cosmetics",
+    "hook": "Quà tặng: Son lì màu trầm cho da ngăm.",
+    "scenes": [
+      "Thử son sáng màu, lệch tông.",
+      "Màu trầm tôn da ngăm."
+    ],
+    "voiceover": "Đúng màu quan trọng hơn màu hot. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Thỏi son lì và swatch trên tay."
+  },
+  {
+    "id": "cosmetics-08",
+    "split": "dev",
+    "category": "cosmetics",
+    "hook": "Tiết kiệm: Son lì màu trầm cho da ngăm.",
+    "scenes": [
+      "Thử son sáng màu, lệch tông.",
+      "Màu trầm tôn da ngăm."
+    ],
+    "voiceover": "Đúng màu quan trọng hơn màu hot. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Thỏi son lì và swatch trên tay."
+  },
+  {
+    "id": "cosmetics-09",
+    "split": "dev",
+    "category": "cosmetics",
+    "hook": "Người mới: Toner cấp ẩm cho da khô bong tróc.",
+    "scenes": [
+      "Da khô căng sau rửa mặt.",
+      "Toner vỗ nhẹ, da dịu tức thì."
+    ],
+    "voiceover": "Cấp ẩm trước, dưỡng sau. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chai toner và bông cotton."
+  },
+  {
+    "id": "cosmetics-10",
+    "split": "dev",
+    "category": "cosmetics",
+    "hook": "Quà tặng: Toner cấp ẩm cho da khô bong tróc.",
+    "scenes": [
+      "Da khô căng sau rửa mặt.",
+      "Toner vỗ nhẹ, da dịu tức thì."
+    ],
+    "voiceover": "Cấp ẩm trước, dưỡng sau. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chai toner và bông cotton."
+  },
+  {
+    "id": "cosmetics-11",
+    "split": "dev",
+    "category": "cosmetics",
+    "hook": "Tiết kiệm: Toner cấp ẩm cho da khô bong tróc.",
+    "scenes": [
+      "Da khô căng sau rửa mặt.",
+      "Toner vỗ nhẹ, da dịu tức thì."
+    ],
+    "voiceover": "Cấp ẩm trước, dưỡng sau. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chai toner và bông cotton."
+  },
+  {
+    "id": "cosmetics-12",
+    "split": "test",
+    "category": "cosmetics",
+    "hook": "Người mới: Kem dưỡng ẩm ban đêm phục hồi da.",
+    "scenes": [
+      "Da mệt mỏi cuối ngày.",
+      "Thoa kem đêm, sáng da căng."
+    ],
+    "voiceover": "Da phục hồi khi bạn ngủ. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Hũ kem đêm và ánh đèn ngủ."
+  },
+  {
+    "id": "cosmetics-13",
+    "split": "test",
+    "category": "cosmetics",
+    "hook": "Quà tặng: Kem dưỡng ẩm ban đêm phục hồi da.",
+    "scenes": [
+      "Da mệt mỏi cuối ngày.",
+      "Thoa kem đêm, sáng da căng."
+    ],
+    "voiceover": "Da phục hồi khi bạn ngủ. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Hũ kem đêm và ánh đèn ngủ."
+  },
+  {
+    "id": "cosmetics-14",
+    "split": "test",
+    "category": "cosmetics",
+    "hook": "Tiết kiệm: Kem dưỡng ẩm ban đêm phục hồi da.",
+    "scenes": [
+      "Da mệt mỏi cuối ngày.",
+      "Thoa kem đêm, sáng da căng."
+    ],
+    "voiceover": "Da phục hồi khi bạn ngủ. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Hũ kem đêm và ánh đèn ngủ."
+  },
+  {
+    "id": "health-00",
+    "split": "feed",
+    "category": "health",
+    "hook": "Người mới: Bình nước nhắc bạn uống đủ mỗi ngày.",
+    "scenes": [
+      "Nhức đầu nhẹ vì thiếu nước.",
+      "Bình vạch ml, uống đủ hai lít."
+    ],
+    "voiceover": "Nước là liều thuốc rẻ nhất. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Bình nước vạch ml và lát chanh."
+  },
+  {
+    "id": "health-01",
+    "split": "feed",
+    "category": "health",
+    "hook": "Quà tặng: Bình nước nhắc bạn uống đủ mỗi ngày.",
+    "scenes": [
+      "Nhức đầu nhẹ vì thiếu nước.",
+      "Bình vạch ml, uống đủ hai lít."
+    ],
+    "voiceover": "Nước là liều thuốc rẻ nhất. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Bình nước vạch ml và lát chanh."
+  },
+  {
+    "id": "health-02",
+    "split": "feed",
+    "category": "health",
+    "hook": "Tiết kiệm: Bình nước nhắc bạn uống đủ mỗi ngày.",
+    "scenes": [
+      "Nhức đầu nhẹ vì thiếu nước.",
+      "Bình vạch ml, uống đủ hai lít."
+    ],
+    "voiceover": "Nước là liều thuốc rẻ nhất. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Bình nước vạch ml và lát chanh."
+  },
+  {
+    "id": "health-03",
+    "split": "feed",
+    "category": "health",
+    "hook": "Người mới: Vòng đếm bước cho người ngồi nhiều.",
+    "scenes": [
+      "Ngồi tám tiếng, lưng mỏi.",
+      "Đứng dậy đi bộ, vòng đếm bước."
+    ],
+    "voiceover": "Vận động nhỏ phá thế ngồi lâu. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Vòng đeo tay và dáng đi bộ."
+  },
+  {
+    "id": "health-04",
+    "split": "feed",
+    "category": "health",
+    "hook": "Quà tặng: Vòng đếm bước cho người ngồi nhiều.",
+    "scenes": [
+      "Ngồi tám tiếng, lưng mỏi.",
+      "Đứng dậy đi bộ, vòng đếm bước."
+    ],
+    "voiceover": "Vận động nhỏ phá thế ngồi lâu. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Vòng đeo tay và dáng đi bộ."
+  },
+  {
+    "id": "health-05",
+    "split": "feed",
+    "category": "health",
+    "hook": "Tiết kiệm: Vòng đếm bước cho người ngồi nhiều.",
+    "scenes": [
+      "Ngồi tám tiếng, lưng mỏi.",
+      "Đứng dậy đi bộ, vòng đếm bước."
+    ],
+    "voiceover": "Vận động nhỏ phá thế ngồi lâu. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Vòng đeo tay và dáng đi bộ."
+  },
+  {
+    "id": "health-06",
+    "split": "feed",
+    "category": "health",
+    "hook": "Người mới: Gối công thái học cho giấc ngủ sâu.",
+    "scenes": [
+      "Trằn trọc vì gối quá cao.",
+      "Gối mới đỡ cổ, ngủ liền mạch."
+    ],
+    "voiceover": "Ngủ ngon bắt đầu từ cổ. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Gối công thái học và giường tối."
+  },
+  {
+    "id": "health-07",
+    "split": "feed",
+    "category": "health",
+    "hook": "Quà tặng: Gối công thái học cho giấc ngủ sâu.",
+    "scenes": [
+      "Trằn trọc vì gối quá cao.",
+      "Gối mới đỡ cổ, ngủ liền mạch."
+    ],
+    "voiceover": "Ngủ ngon bắt đầu từ cổ. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Gối công thái học và giường tối."
+  },
+  {
+    "id": "health-08",
+    "split": "dev",
+    "category": "health",
+    "hook": "Tiết kiệm: Gối công thái học cho giấc ngủ sâu.",
+    "scenes": [
+      "Trằn trọc vì gối quá cao.",
+      "Gối mới đỡ cổ, ngủ liền mạch."
+    ],
+    "voiceover": "Ngủ ngon bắt đầu từ cổ. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Gối công thái học và giường tối."
+  },
+  {
+    "id": "health-09",
+    "split": "dev",
+    "category": "health",
+    "hook": "Người mới: Vitamin tổng hợp cho người ăn thất thường.",
+    "scenes": [
+      "Bữa ăn vội, thiếu chất.",
+      "Viên vitamin bù phần thiếu."
+    ],
+    "voiceover": "Ăn đủ trước, viên uống chỉ bù đắp. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Lọ vitamin và bữa ăn cân bằng."
+  },
+  {
+    "id": "health-10",
+    "split": "dev",
+    "category": "health",
+    "hook": "Quà tặng: Vitamin tổng hợp cho người ăn thất thường.",
+    "scenes": [
+      "Bữa ăn vội, thiếu chất.",
+      "Viên vitamin bù phần thiếu."
+    ],
+    "voiceover": "Ăn đủ trước, viên uống chỉ bù đắp. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Lọ vitamin và bữa ăn cân bằng."
+  },
+  {
+    "id": "health-11",
+    "split": "dev",
+    "category": "health",
+    "hook": "Tiết kiệm: Vitamin tổng hợp cho người ăn thất thường.",
+    "scenes": [
+      "Bữa ăn vội, thiếu chất.",
+      "Viên vitamin bù phần thiếu."
+    ],
+    "voiceover": "Ăn đủ trước, viên uống chỉ bù đắp. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Lọ vitamin và bữa ăn cân bằng."
+  },
+  {
+    "id": "health-12",
+    "split": "test",
+    "category": "health",
+    "hook": "Người mới: Thảm yoga tại nhà cho người mới.",
+    "scenes": [
+      "Tập sàn cứng, đau đầu gối.",
+      "Thảm êm, tư thế vững."
+    ],
+    "voiceover": "Bắt đầu nhẹ, đều mới thắng. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Thảm yoga và tư thế cây cầu."
+  },
+  {
+    "id": "health-13",
+    "split": "test",
+    "category": "health",
+    "hook": "Quà tặng: Thảm yoga tại nhà cho người mới.",
+    "scenes": [
+      "Tập sàn cứng, đau đầu gối.",
+      "Thảm êm, tư thế vững."
+    ],
+    "voiceover": "Bắt đầu nhẹ, đều mới thắng. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Thảm yoga và tư thế cây cầu."
+  },
+  {
+    "id": "health-14",
+    "split": "test",
+    "category": "health",
+    "hook": "Tiết kiệm: Thảm yoga tại nhà cho người mới.",
+    "scenes": [
+      "Tập sàn cứng, đau đầu gối.",
+      "Thảm êm, tư thế vững."
+    ],
+    "voiceover": "Bắt đầu nhẹ, đều mới thắng. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Thảm yoga và tư thế cây cầu."
+  },
+  {
+    "id": "perfume-00",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Người mới: Nước hoa gỗ ấm cho buổi hẹn tối.",
+    "scenes": [
+      "Xịt nhẹ cổ tay, hương gỗ lan.",
+      "Người đối diện nghiêng lại gần."
+    ],
+    "voiceover": "Mùi hương là chữ ký vô hình. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chai nước hoa gỗ và ánh nến."
+  },
+  {
+    "id": "perfume-01",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Quà tặng: Nước hoa gỗ ấm cho buổi hẹn tối.",
+    "scenes": [
+      "Xịt nhẹ cổ tay, hương gỗ lan.",
+      "Người đối diện nghiêng lại gần."
+    ],
+    "voiceover": "Mùi hương là chữ ký vô hình. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chai nước hoa gỗ và ánh nến."
+  },
+  {
+    "id": "perfume-02",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Tiết kiệm: Nước hoa gỗ ấm cho buổi hẹn tối.",
+    "scenes": [
+      "Xịt nhẹ cổ tay, hương gỗ lan.",
+      "Người đối diện nghiêng lại gần."
+    ],
+    "voiceover": "Mùi hương là chữ ký vô hình. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chai nước hoa gỗ và ánh nến."
+  },
+  {
+    "id": "perfume-03",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Người mới: Hương citrus tươi cho ngày hè.",
+    "scenes": [
+      "Nắng gắt, người uể oải.",
+      "Xịt citrus, tinh thần bừng tỉnh."
+    ],
+    "voiceover": "Mùi hương đổi cả tâm trạng. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chai citrus và lát cam."
+  },
+  {
+    "id": "perfume-04",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Quà tặng: Hương citrus tươi cho ngày hè.",
+    "scenes": [
+      "Nắng gắt, người uể oải.",
+      "Xịt citrus, tinh thần bừng tỉnh."
+    ],
+    "voiceover": "Mùi hương đổi cả tâm trạng. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chai citrus và lát cam."
+  },
+  {
+    "id": "perfume-05",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Tiết kiệm: Hương citrus tươi cho ngày hè.",
+    "scenes": [
+      "Nắng gắt, người uể oải.",
+      "Xịt citrus, tinh thần bừng tỉnh."
+    ],
+    "voiceover": "Mùi hương đổi cả tâm trạng. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chai citrus và lát cam."
+  },
+  {
+    "id": "perfume-06",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Người mới: Nước hoa hoa cỏ nhẹ cho công sở.",
+    "scenes": [
+      "Hương nồng gây khó chịu phòng kín.",
+      "Hương hoa cỏ thoảng, dễ chịu."
+    ],
+    "voiceover": "Đi làm nên thơm vừa đủ. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chai hoa cỏ và bàn làm việc."
+  },
+  {
+    "id": "perfume-07",
+    "split": "feed",
+    "category": "perfume",
+    "hook": "Quà tặng: Nước hoa hoa cỏ nhẹ cho công sở.",
+    "scenes": [
+      "Hương nồng gây khó chịu phòng kín.",
+      "Hương hoa cỏ thoảng, dễ chịu."
+    ],
+    "voiceover": "Đi làm nên thơm vừa đủ. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chai hoa cỏ và bàn làm việc."
+  },
+  {
+    "id": "perfume-08",
+    "split": "dev",
+    "category": "perfume",
+    "hook": "Tiết kiệm: Nước hoa hoa cỏ nhẹ cho công sở.",
+    "scenes": [
+      "Hương nồng gây khó chịu phòng kín.",
+      "Hương hoa cỏ thoảng, dễ chịu."
+    ],
+    "voiceover": "Đi làm nên thơm vừa đủ. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chai hoa cỏ và bàn làm việc."
+  },
+  {
+    "id": "perfume-09",
+    "split": "dev",
+    "category": "perfume",
+    "hook": "Người mới: Mùi hương vanilla ngọt cho mùa đông.",
+    "scenes": [
+      "Gió lạnh, người co ro.",
+      "Hương vanilla ấm như ôm."
+    ],
+    "voiceover": "Mùa đông cần một mùi ấm. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Chai vanilla và khăn len."
+  },
+  {
+    "id": "perfume-10",
+    "split": "dev",
+    "category": "perfume",
+    "hook": "Quà tặng: Mùi hương vanilla ngọt cho mùa đông.",
+    "scenes": [
+      "Gió lạnh, người co ro.",
+      "Hương vanilla ấm như ôm."
+    ],
+    "voiceover": "Mùa đông cần một mùi ấm. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Chai vanilla và khăn len."
+  },
+  {
+    "id": "perfume-11",
+    "split": "dev",
+    "category": "perfume",
+    "hook": "Tiết kiệm: Mùi hương vanilla ngọt cho mùa đông.",
+    "scenes": [
+      "Gió lạnh, người co ro.",
+      "Hương vanilla ấm như ôm."
+    ],
+    "voiceover": "Mùa đông cần một mùi ấm. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Chai vanilla và khăn len."
+  },
+  {
+    "id": "perfume-12",
+    "split": "test",
+    "category": "perfume",
+    "hook": "Người mới: Nước hoa unisex cho cặp đôi.",
+    "scenes": [
+      "Hai người cùng một mùi hương.",
+      "Áo khoác thoảng hương chung."
+    ],
+    "voiceover": "Mùi hương chung là kỷ niệm. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Hai chai giống nhau và áo khoác."
+  },
+  {
+    "id": "perfume-13",
+    "split": "test",
+    "category": "perfume",
+    "hook": "Quà tặng: Nước hoa unisex cho cặp đôi.",
+    "scenes": [
+      "Hai người cùng một mùi hương.",
+      "Áo khoác thoảng hương chung."
+    ],
+    "voiceover": "Mùi hương chung là kỷ niệm. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Hai chai giống nhau và áo khoác."
+  },
+  {
+    "id": "fashion-00",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Người mới: Áo thun cotton form rộng cho ngày thường.",
+    "scenes": [
+      "Áo cũ nhăn, mất form.",
+      "Áo cotton mới, đứng form thoải mái."
+    ],
+    "voiceover": "Mặc đẹp không cần đắt. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Áo thun cotton gấp gọn."
+  },
+  {
+    "id": "fashion-01",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Quà tặng: Áo thun cotton form rộng cho ngày thường.",
+    "scenes": [
+      "Áo cũ nhăn, mất form.",
+      "Áo cotton mới, đứng form thoải mái."
+    ],
+    "voiceover": "Mặc đẹp không cần đắt. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Áo thun cotton gấp gọn."
+  },
+  {
+    "id": "fashion-02",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Tiết kiệm: Áo thun cotton form rộng cho ngày thường.",
+    "scenes": [
+      "Áo cũ nhăn, mất form.",
+      "Áo cotton mới, đứng form thoải mái."
+    ],
+    "voiceover": "Mặc đẹp không cần đắt. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Áo thun cotton gấp gọn."
+  },
+  {
+    "id": "fashion-03",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Người mới: Quần jean ống đứng tôn dáng.",
+    "scenes": [
+      "Quần cũ bó, khó vận động.",
+      "Ống đứng vừa vặn, dễ đi."
+    ],
+    "voiceover": "Tôn dáng bắt đầu từ vừa vặn. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Quần jean ống đứng và giày trắng."
+  },
+  {
+    "id": "fashion-04",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Quà tặng: Quần jean ống đứng tôn dáng.",
+    "scenes": [
+      "Quần cũ bó, khó vận động.",
+      "Ống đứng vừa vặn, dễ đi."
+    ],
+    "voiceover": "Tôn dáng bắt đầu từ vừa vặn. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Quần jean ống đứng và giày trắng."
+  },
+  {
+    "id": "fashion-05",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Tiết kiệm: Quần jean ống đứng tôn dáng.",
+    "scenes": [
+      "Quần cũ bó, khó vận động.",
+      "Ống đứng vừa vặn, dễ đi."
+    ],
+    "voiceover": "Tôn dáng bắt đầu từ vừa vặn. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Quần jean ống đứng và giày trắng."
+  },
+  {
+    "id": "fashion-06",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Người mới: Áo khoác gió nhẹ cho mùa mưa.",
+    "scenes": [
+      "Mưa bất chợt, áo ướt.",
+      "Áo khoác gió trượt nước."
+    ],
+    "voiceover": "Nhẹ mà chắn được mưa. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Áo khoác gió và giọt nước trượt."
+  },
+  {
+    "id": "fashion-07",
+    "split": "feed",
+    "category": "fashion",
+    "hook": "Quà tặng: Áo khoác gió nhẹ cho mùa mưa.",
+    "scenes": [
+      "Mưa bất chợt, áo ướt.",
+      "Áo khoác gió trượt nước."
+    ],
+    "voiceover": "Nhẹ mà chắn được mưa. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Áo khoác gió và giọt nước trượt."
+  },
+  {
+    "id": "fashion-08",
+    "split": "dev",
+    "category": "fashion",
+    "hook": "Tiết kiệm: Áo khoác gió nhẹ cho mùa mưa.",
+    "scenes": [
+      "Mưa bất chợt, áo ướt.",
+      "Áo khoác gió trượt nước."
+    ],
+    "voiceover": "Nhẹ mà chắn được mưa. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Áo khoác gió và giọt nước trượt."
+  },
+  {
+    "id": "fashion-09",
+    "split": "dev",
+    "category": "fashion",
+    "hook": "Người mới: Váy hoa nhí cho buổi dạo phố.",
+    "scenes": [
+      "Phối đồ rối, không ra chất.",
+      "Váy hoa nhí và sandals, gọn gàng."
+    ],
+    "voiceover": "Một món đúng, cả set sáng. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Váy hoa nhí và sandals."
+  },
+  {
+    "id": "fashion-10",
+    "split": "dev",
+    "category": "fashion",
+    "hook": "Quà tặng: Váy hoa nhí cho buổi dạo phố.",
+    "scenes": [
+      "Phối đồ rối, không ra chất.",
+      "Váy hoa nhí và sandals, gọn gàng."
+    ],
+    "voiceover": "Một món đúng, cả set sáng. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Váy hoa nhí và sandals."
+  },
+  {
+    "id": "fashion-11",
+    "split": "dev",
+    "category": "fashion",
+    "hook": "Tiết kiệm: Váy hoa nhí cho buổi dạo phố.",
+    "scenes": [
+      "Phối đồ rối, không ra chất.",
+      "Váy hoa nhí và sandals, gọn gàng."
+    ],
+    "voiceover": "Một món đúng, cả set sáng. Chọn bản vừa túi tiền, vẫn đủ chất.",
+    "visual_cue": "Váy hoa nhí và sandals."
+  },
+  {
+    "id": "fashion-12",
+    "split": "test",
+    "category": "fashion",
+    "hook": "Người mới: Túi tote canvas đựng cả thế giới.",
+    "scenes": [
+      "Túi nhỏ không đựng nổi laptop.",
+      "Tote canvas đựng laptop và sổ."
+    ],
+    "voiceover": "Đựng được nhiều, vẫn gọn. Bắt đầu từ cái nhỏ nhất.",
+    "visual_cue": "Túi tote canvas và laptop."
+  },
+  {
+    "id": "fashion-13",
+    "split": "test",
+    "category": "fashion",
+    "hook": "Quà tặng: Túi tote canvas đựng cả thế giới.",
+    "scenes": [
+      "Túi nhỏ không đựng nổi laptop.",
+      "Tote canvas đựng laptop và sổ."
+    ],
+    "voiceover": "Đựng được nhiều, vẫn gọn. Gói lại là thành món quà tinh tế.",
+    "visual_cue": "Túi tote canvas và laptop."
+  }
+]
