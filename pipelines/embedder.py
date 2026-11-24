@@ -10,10 +10,13 @@ from __future__ import annotations
 
 import json
 import os
+import ssl
 import time
 from pathlib import Path
 
+import httpx
 import numpy as np
+import truststore
 from google import genai
 from google.genai import types
 
@@ -21,13 +24,45 @@ EMBED_MODEL = os.environ.get("EMBED_MODEL", "gemini-embedding-001")
 DIM = 768
 BATCH = 100
 MEAN_VERSION = 1
+JINA_URL = "https://api.jina.ai/v1/embeddings"
+_SSL_CTX = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 
 
 def _client() -> genai.Client:
     return genai.Client(http_options=types.HttpOptions(timeout=60000))
 
 
+def _embed_jina(texts: list[str], task_type: str) -> np.ndarray:
+    """Jina fallback (free 1M tokens); task maps to retrieval.passage/query."""
+    task = "retrieval.query" if task_type == "RETRIEVAL_QUERY" else "retrieval.passage"
+    headers = {"Authorization": f"Bearer {os.environ['JINA_API_KEY']}"}
+    rows: list[list[float]] = []
+    for i in range(0, len(texts), BATCH):
+        chunk = texts[i : i + BATCH]
+        for attempt in range(30):
+            try:
+                resp = httpx.post(
+                    JINA_URL,
+                    json={"model": "jina-embeddings-v3", "input": chunk, "dimensions": DIM, "task": task},
+                    headers=headers,
+                    timeout=60,
+                    trust_env=False,
+                    verify=_SSL_CTX,
+                )
+                resp.raise_for_status()
+                break
+            except httpx.HTTPStatusError as exc:
+                if exc.response.status_code == 429 and attempt < 29:
+                    time.sleep(35)
+                    continue
+                raise
+        rows.extend([d["embedding"] for d in resp.json()["data"]])
+    return np.asarray(rows, dtype=np.float64)
+
+
 def _embed_texts(texts: list[str], task_type: str) -> np.ndarray:
+    if os.environ.get("JINA_API_KEY"):
+        return _embed_jina(texts, task_type)
     client = _client()
     rows: list[list[float]] = []
     for i in range(0, len(texts), BATCH):

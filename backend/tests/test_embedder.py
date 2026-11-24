@@ -122,3 +122,27 @@ def test_main_writes_outputs(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) ->
     assert np.load(proc / "product_emb_centered.npy").shape == (2, em.DIM)
     assert np.load(proc / "script_emb.npy").shape == (1, em.DIM)
     assert (proc / "item_mean_v1.npy").exists()
+
+
+def test_jina_fallback_task_mapping(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("JINA_API_KEY", "k")
+    seen: dict = {}
+
+    class Resp:
+        def raise_for_status(self) -> None:
+            pass
+
+        def json(self) -> dict:
+            return {"data": [{"embedding": [1.0] * em.DIM} for _ in seen["input"]]}
+
+    def fake_post(url: str, **kwargs: object) -> Resp:
+        seen.update(kwargs["json"])
+        seen["url"] = url
+        return Resp()
+
+    monkeypatch.setattr(em.httpx, "post", fake_post)
+    out = em.embed_batch_l2(["a"], "RETRIEVAL_QUERY")
+    assert seen["url"] == em.JINA_URL
+    assert seen["task"] == "retrieval.query"
+    assert seen["dimensions"] == em.DIM
+    assert out.shape == (1, em.DIM)
