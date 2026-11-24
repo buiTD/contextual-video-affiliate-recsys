@@ -24,7 +24,8 @@ frontend/out/
 !.env.example
 
 # Large data & models — host on Hugging Face Datasets, not git
-data/processed/*.parquet
+data/processed/*
+!data/processed/.gitkeep
 data/models/*.txt
 data/models/*.npy
 data/public_benchmark/raw/

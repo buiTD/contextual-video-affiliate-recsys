@@ -340,6 +340,7 @@ dependencies = [
     { name = "pyjwt", extra = ["crypto"] },
     { name = "slowapi" },
     { name = "supabase" },
+    { name = "truststore" },
     { name = "uvicorn", extra = ["standard"] },
 ]
 
@@ -380,6 +381,7 @@ requires-dist = [
     { name = "sentence-transformers", marker = "extra == 'ml'", specifier = ">=3.0" },
     { name = "slowapi", specifier = ">=0.1.9" },
     { name = "supabase", specifier = ">=2.6" },
+    { name = "truststore", specifier = ">=0.10.5" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.30" },
 ]
 provides-extras = ["ml"]
