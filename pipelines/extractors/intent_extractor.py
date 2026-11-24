@@ -11,9 +11,9 @@ import json
 import os
 import ssl
 import time
+from collections.abc import Callable
 from pathlib import Path
 from types import SimpleNamespace
-from typing import Callable
 
 import httpx
 import truststore
@@ -153,16 +153,15 @@ def _script_prompt(batch: list[dict]) -> str:
         "For each short-video script, infer dominant_mood, latent_needs (hidden customer "
         "needs), recommended_categories (category + weight 0..1), bridge_copy (one Vietnamese "
         "sentence linking script to product). recommended_categories.category MUST be one of: "
-        "book, tech, cosmetics, health, perfume, fashion. Return JSON {results:[{id,...}]}.\nScripts: "
-        + json.dumps(batch, ensure_ascii=False)
+        "book, tech, cosmetics, health, perfume, fashion. Return JSON {results:[{id,...}]}."
+        "\nScripts: " + json.dumps(batch, ensure_ascii=False)
     )
 
 
 def _product_prompt(batch: list[dict]) -> str:
     return (
         "For each product, infer target_personas, usage_scenarios, solved_problems. "
-        "Return JSON {results:[{id,...}]}.\nProducts: "
-        + json.dumps(batch, ensure_ascii=False)
+        "Return JSON {results:[{id,...}]}.\nProducts: " + json.dumps(batch, ensure_ascii=False)
     )
 
 

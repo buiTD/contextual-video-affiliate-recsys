@@ -43,7 +43,12 @@ def _embed_jina(texts: list[str], task_type: str) -> np.ndarray:
             try:
                 resp = httpx.post(
                     JINA_URL,
-                    json={"model": "jina-embeddings-v3", "input": chunk, "dimensions": DIM, "task": task},
+                    json={
+                        "model": "jina-embeddings-v3",
+                        "input": chunk,
+                        "dimensions": DIM,
+                        "task": task,
+                    },
                     headers=headers,
                     timeout=60,
                     trust_env=False,
@@ -102,7 +107,12 @@ def mean_center(v: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
 
 
 def build_composite_text_for_product(prod: dict, ctx: dict) -> str:
-    parts = [prod["name"], prod["category"], *ctx.get("usage_scenarios", []), *ctx.get("solved_problems", [])]
+    parts = [
+        prod["name"],
+        prod["category"],
+        *ctx.get("usage_scenarios", []),
+        *ctx.get("solved_problems", []),
+    ]
     return " ".join(p for p in parts if p)
 
 
@@ -115,7 +125,10 @@ def main(root: Path | None = None) -> None:
         root = Path(__file__).resolve().parents[1]
     proc = root / "data" / "processed"
     products = json.loads((root / "data" / "raw" / "products_raw.json").read_text(encoding="utf-8"))
-    enriched = {r["id"]: r for r in json.loads((proc / "products_enriched.json").read_text(encoding="utf-8"))}
+    enriched = {
+        r["id"]: r
+        for r in json.loads((proc / "products_enriched.json").read_text(encoding="utf-8"))
+    }
     scripts = json.loads((root / "data" / "raw" / "scripts_raw.json").read_text(encoding="utf-8"))
     raw_texts = [f"{p['name']} {p.get('description', '')}" for p in products]
     ctx_texts = [build_composite_text_for_product(p, enriched[p["id"]]) for p in products]

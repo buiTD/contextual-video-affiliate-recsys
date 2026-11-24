@@ -19,6 +19,14 @@
    để không dựng strawman yếu.
 8. **φ5 (multi-interest) time-decay phi dừng có chủ đích** → giám sát PSI, không chỉ parity giá trị.
 9. **Clipped IPS / SNIPS cố ý chấp nhận bias nhỏ** để giảm variance → KHÔNG gọi là "unbiased".
+10. **HNSW ở N=500 không phải bằng chứng latency:** EXPLAIN ANALYZE cho thấy planner chọn exact
+    scan (btree category + top-N heapsort), không dùng HNSW. `match_products` ép
+    `enable_indexscan = off` để hợp đồng exact-KNN parity không phụ thuộc lựa chọn của planner.
+    SQL path đo được **60.3 ms** cho 84 candidate (free tier) ≫ mục tiêu p95 server <40 ms →
+    retrieval serving bắt buộc in-RAM; RPC SQL chỉ dùng cho parity/offline. HNSW chỉ thực sự
+    có ý nghĩa ở 50k (v3). pgvector lưu float32 nên parity SQL ↔ NumPy lệch ~5e-7, không bit-exact.
+11. **40 golden scripts (24 dev / 16 test) chưa enrich latent-intent** → cột latent trong DB là
+    NULL. Mọi ablation raw-vs-enriched trên golden phải chạy arm raw cho tới khi enrich xong.
 
 ## Scope cuts (nếu tràn giờ)
 - Temporal video engine có thể hạ xuống 5 video demo.

@@ -34,8 +34,7 @@ def _stream(url: str):
         ["curl", "-sL", "--fail", "--max-time", "120", url], stdout=subprocess.PIPE
     )
     try:
-        for line in proc.stdout:
-            yield line
+        yield from proc.stdout
     finally:
         proc.kill()
 
